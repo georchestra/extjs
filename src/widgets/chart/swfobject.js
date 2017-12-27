@@ -195,12 +195,12 @@ var swfobject = function() {
         - Will preferably execute onDomLoad, otherwise onload (as a fallback)
     */
     function main() { 
-        if (plugin) {
-            testPlayerVersion();
-        }
-        else {
+        //~ if (plugin) {
+            //~ testPlayerVersion();
+        //~ }
+        //~ else {
             matchVersions();
-        }
+        //~ }
     }
     
     /* Detect the Flash Player version for non-Internet Explorer browsers
